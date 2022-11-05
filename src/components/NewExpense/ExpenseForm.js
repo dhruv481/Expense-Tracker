@@ -17,6 +17,9 @@ const ExpenseForm = () => {
     //    ...userInput,
     //  enteredTitle: event.target.value,
     //  });
+    //setUserInput((prevSate) => {
+    //  return {...prevSate,enteredTitle: event.target.value};
+    //});
   };
 
   const amountChangeHandler = (event) => {
